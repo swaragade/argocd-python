@@ -1,4 +1,4 @@
-# swagger_client.ApplicationServiceApi
+# argocd.ApplicationServiceApi
 
 All URIs are relative to */*
 
@@ -43,13 +43,13 @@ Create creates an application
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.V1alpha1Application() # V1alpha1Application | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.V1alpha1Application() # V1alpha1Application | 
 upsert = true # bool |  (optional)
 validate = true # bool |  (optional)
 
@@ -93,12 +93,12 @@ Delete deletes an application
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 cascade = true # bool |  (optional)
 propagation_policy = 'propagation_policy_example' # str |  (optional)
@@ -147,12 +147,12 @@ DeleteResource deletes a single application resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 resource_name = 'resource_name_example' # str |  (optional)
@@ -211,12 +211,12 @@ Get returns an application by name
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | the application's name
 refresh = 'refresh_example' # str | forces application reconciliation if set to 'hard'. (optional)
 projects = ['projects_example'] # list[str] | the project names to restrict returned list applications. (optional)
@@ -271,12 +271,12 @@ Get returns sync windows of the application
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 app_namespace = 'app_namespace_example' # str |  (optional)
 project = 'project_example' # str |  (optional)
@@ -321,12 +321,12 @@ GetManifests returns application manifests
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 revision = 'revision_example' # str |  (optional)
 app_namespace = 'app_namespace_example' # str |  (optional)
@@ -373,13 +373,13 @@ GetManifestsWithFiles returns application manifests using provided files to gene
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.ApplicationApplicationManifestQueryWithFilesWrapper() # ApplicationApplicationManifestQueryWithFilesWrapper |  (streaming inputs)
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.ApplicationApplicationManifestQueryWithFilesWrapper() # ApplicationApplicationManifestQueryWithFilesWrapper |  (streaming inputs)
 
 try:
     # GetManifestsWithFiles returns application manifests using provided files to generate them
@@ -419,12 +419,12 @@ GetResource returns single application resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 resource_name = 'resource_name_example' # str |  (optional)
@@ -479,12 +479,12 @@ List returns list of applications
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | the application's name. (optional)
 refresh = 'refresh_example' # str | forces application reconciliation if set to 'hard'. (optional)
 projects = ['projects_example'] # list[str] | the project names to restrict returned list applications. (optional)
@@ -539,12 +539,12 @@ ListLinks returns the list of all application deep links
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 project = 'project_example' # str |  (optional)
@@ -589,12 +589,12 @@ ListResourceActions returns list of resource actions
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 resource_name = 'resource_name_example' # str |  (optional)
@@ -649,12 +649,12 @@ ListResourceEvents returns a list of event resources
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 resource_namespace = 'resource_namespace_example' # str |  (optional)
 resource_name = 'resource_name_example' # str |  (optional)
@@ -705,12 +705,12 @@ ListResourceLinks returns the list of all resource deep links
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 resource_name = 'resource_name_example' # str |  (optional)
@@ -765,12 +765,12 @@ ManagedResources returns list of managed resources
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 application_name = 'application_name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 name = 'name_example' # str |  (optional)
@@ -825,13 +825,13 @@ Patch patch an application
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.ApplicationApplicationPatchRequest() # ApplicationApplicationPatchRequest | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.ApplicationApplicationPatchRequest() # ApplicationApplicationPatchRequest | 
 name = 'name_example' # str | 
 
 try:
@@ -873,12 +873,12 @@ PatchResource patch single application resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 body = 'body_example' # str | 
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
@@ -937,12 +937,12 @@ PodLogs returns stream of log entries for the specified pod. Pod
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 pod_name = 'pod_name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
@@ -1015,12 +1015,12 @@ PodLogs returns stream of log entries for the specified pod. Pod
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 pod_name = 'pod_name_example' # str |  (optional)
@@ -1093,12 +1093,12 @@ ResourceTree returns resource tree
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 application_name = 'application_name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 name = 'name_example' # str |  (optional)
@@ -1153,12 +1153,12 @@ Get the chart metadata (description, maintainers, home) for a specific revision 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | the application's name
 revision = 'revision_example' # str | the revision of the app
 app_namespace = 'app_namespace_example' # str | the application's namespace. (optional)
@@ -1205,12 +1205,12 @@ Get the meta-data (author, date, tags, message) for a specific revision of the a
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | the application's name
 revision = 'revision_example' # str | the revision of the app
 app_namespace = 'app_namespace_example' # str | the application's namespace. (optional)
@@ -1257,13 +1257,13 @@ Rollback syncs an application to its target state
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.ApplicationApplicationRollbackRequest() # ApplicationApplicationRollbackRequest | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.ApplicationApplicationRollbackRequest() # ApplicationApplicationRollbackRequest | 
 name = 'name_example' # str | 
 
 try:
@@ -1305,12 +1305,12 @@ RunResourceAction run resource action
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 body = 'body_example' # str | 
 name = 'name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
@@ -1367,13 +1367,13 @@ Sync syncs an application to its target state
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.ApplicationApplicationSyncRequest() # ApplicationApplicationSyncRequest | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.ApplicationApplicationSyncRequest() # ApplicationApplicationSyncRequest | 
 name = 'name_example' # str | 
 
 try:
@@ -1415,12 +1415,12 @@ TerminateOperation terminates the currently running operation
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | 
 app_namespace = 'app_namespace_example' # str |  (optional)
 project = 'project_example' # str |  (optional)
@@ -1465,13 +1465,13 @@ Update updates an application
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.V1alpha1Application() # V1alpha1Application | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.V1alpha1Application() # V1alpha1Application | 
 application_metadata_name = 'application_metadata_name_example' # str | Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names +optional
 validate = true # bool |  (optional)
 project = 'project_example' # str |  (optional)
@@ -1517,13 +1517,13 @@ UpdateSpec updates an application spec
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
-body = swagger_client.V1alpha1ApplicationSpec() # V1alpha1ApplicationSpec | 
+api_instance = argocd.ApplicationServiceApi()
+body = argocd.V1alpha1ApplicationSpec() # V1alpha1ApplicationSpec | 
 name = 'name_example' # str | 
 validate = true # bool |  (optional)
 app_namespace = 'app_namespace_example' # str |  (optional)
@@ -1571,12 +1571,12 @@ Watch returns stream of application change events
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 name = 'name_example' # str | the application's name. (optional)
 refresh = 'refresh_example' # str | forces application reconciliation if set to 'hard'. (optional)
 projects = ['projects_example'] # list[str] | the project names to restrict returned list applications. (optional)
@@ -1631,12 +1631,12 @@ Watch returns stream of application resource tree
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationServiceApi()
+api_instance = argocd.ApplicationServiceApi()
 application_name = 'application_name_example' # str | 
 namespace = 'namespace_example' # str |  (optional)
 name = 'name_example' # str |  (optional)

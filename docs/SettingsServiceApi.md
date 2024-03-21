@@ -1,4 +1,4 @@
-# swagger_client.SettingsServiceApi
+# argocd.SettingsServiceApi
 
 All URIs are relative to */*
 
@@ -16,12 +16,12 @@ Get returns Argo CD settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsServiceApi()
+api_instance = argocd.SettingsServiceApi()
 
 try:
     # Get returns Argo CD settings
@@ -58,12 +58,12 @@ Get returns Argo CD plugins
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsServiceApi()
+api_instance = argocd.SettingsServiceApi()
 
 try:
     # Get returns Argo CD plugins

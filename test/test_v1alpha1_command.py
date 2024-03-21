@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_command import V1alpha1Command  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_command import V1alpha1Command  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1Command(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1Command(unittest.TestCase):
     def testV1alpha1Command(self):
         """Test V1alpha1Command"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_command.V1alpha1Command()  # noqa: E501
+        # model = argocd.models.v1alpha1_command.V1alpha1Command()  # noqa: E501
         pass
 
 

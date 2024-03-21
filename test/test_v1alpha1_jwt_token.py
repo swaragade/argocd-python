@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_jwt_token import V1alpha1JWTToken  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_jwt_token import V1alpha1JWTToken  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1JWTToken(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1JWTToken(unittest.TestCase):
     def testV1alpha1JWTToken(self):
         """Test V1alpha1JWTToken"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_jwt_token.V1alpha1JWTToken()  # noqa: E501
+        # model = argocd.models.v1alpha1_jwt_token.V1alpha1JWTToken()  # noqa: E501
         pass
 
 

@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import argocd 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import argocd
 ```
 
 ## Getting Started
@@ -47,12 +47,12 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
 resource = 'resource_example' # str | 
 action = 'action_example' # str | 
 subresource = 'subresource_example' # str | 
@@ -65,8 +65,8 @@ except ApiException as e:
     print("Exception when calling AccountServiceApi->account_service_can_i: %s\n" % e)
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AccountCreateTokenRequest() # AccountCreateTokenRequest | 
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
+body = argocd.AccountCreateTokenRequest() # AccountCreateTokenRequest | 
 name = 'name_example' # str | 
 
 try:
@@ -77,7 +77,7 @@ except ApiException as e:
     print("Exception when calling AccountServiceApi->account_service_create_token: %s\n" % e)
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
 name = 'name_example' # str | 
 id = 'id_example' # str | 
 
@@ -89,7 +89,7 @@ except ApiException as e:
     print("Exception when calling AccountServiceApi->account_service_delete_token: %s\n" % e)
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
 name = 'name_example' # str | 
 
 try:
@@ -100,7 +100,7 @@ except ApiException as e:
     print("Exception when calling AccountServiceApi->account_service_get_account: %s\n" % e)
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
 
 try:
     # ListAccounts returns the list of accounts
@@ -110,8 +110,8 @@ except ApiException as e:
     print("Exception when calling AccountServiceApi->account_service_list_accounts: %s\n" % e)
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AccountUpdatePasswordRequest() # AccountUpdatePasswordRequest | 
+api_instance = argocd.AccountServiceApi(argocd.ApiClient(configuration))
+body = argocd.AccountUpdatePasswordRequest() # AccountUpdatePasswordRequest | 
 
 try:
     # UpdatePassword updates an account's password to a new value

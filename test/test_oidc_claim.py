@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.oidc_claim import OidcClaim  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.oidc_claim import OidcClaim  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestOidcClaim(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestOidcClaim(unittest.TestCase):
     def testOidcClaim(self):
         """Test OidcClaim"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.oidc_claim.OidcClaim()  # noqa: E501
+        # model = argocd.models.oidc_claim.OidcClaim()  # noqa: E501
         pass
 
 

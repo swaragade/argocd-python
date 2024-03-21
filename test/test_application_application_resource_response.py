@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.application_application_resource_response import ApplicationApplicationResourceResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.application_application_resource_response import ApplicationApplicationResourceResponse  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestApplicationApplicationResourceResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestApplicationApplicationResourceResponse(unittest.TestCase):
     def testApplicationApplicationResourceResponse(self):
         """Test ApplicationApplicationResourceResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.application_application_resource_response.ApplicationApplicationResourceResponse()  # noqa: E501
+        # model = argocd.models.application_application_resource_response.ApplicationApplicationResourceResponse()  # noqa: E501
         pass
 
 

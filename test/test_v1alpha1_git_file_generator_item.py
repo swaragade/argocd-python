@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_git_file_generator_item import V1alpha1GitFileGeneratorItem  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_git_file_generator_item import V1alpha1GitFileGeneratorItem  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1GitFileGeneratorItem(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1GitFileGeneratorItem(unittest.TestCase):
     def testV1alpha1GitFileGeneratorItem(self):
         """Test V1alpha1GitFileGeneratorItem"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_git_file_generator_item.V1alpha1GitFileGeneratorItem()  # noqa: E501
+        # model = argocd.models.v1alpha1_git_file_generator_item.V1alpha1GitFileGeneratorItem()  # noqa: E501
         pass
 
 

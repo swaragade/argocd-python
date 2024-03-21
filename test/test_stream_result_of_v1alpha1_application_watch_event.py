@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.stream_result_of_v1alpha1_application_watch_event import StreamResultOfV1alpha1ApplicationWatchEvent  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.stream_result_of_v1alpha1_application_watch_event import StreamResultOfV1alpha1ApplicationWatchEvent  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestStreamResultOfV1alpha1ApplicationWatchEvent(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestStreamResultOfV1alpha1ApplicationWatchEvent(unittest.TestCase):
     def testStreamResultOfV1alpha1ApplicationWatchEvent(self):
         """Test StreamResultOfV1alpha1ApplicationWatchEvent"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.stream_result_of_v1alpha1_application_watch_event.StreamResultOfV1alpha1ApplicationWatchEvent()  # noqa: E501
+        # model = argocd.models.stream_result_of_v1alpha1_application_watch_event.StreamResultOfV1alpha1ApplicationWatchEvent()  # noqa: E501
         pass
 
 

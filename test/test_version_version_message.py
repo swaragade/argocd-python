@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.version_version_message import VersionVersionMessage  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.version_version_message import VersionVersionMessage  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestVersionVersionMessage(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestVersionVersionMessage(unittest.TestCase):
     def testVersionVersionMessage(self):
         """Test VersionVersionMessage"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.version_version_message.VersionVersionMessage()  # noqa: E501
+        # model = argocd.models.version_version_message.VersionVersionMessage()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_cluster_generator import V1alpha1ClusterGenerator  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_cluster_generator import V1alpha1ClusterGenerator  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1ClusterGenerator(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1ClusterGenerator(unittest.TestCase):
     def testV1alpha1ClusterGenerator(self):
         """Test V1alpha1ClusterGenerator"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_cluster_generator.V1alpha1ClusterGenerator()  # noqa: E501
+        # model = argocd.models.v1alpha1_cluster_generator.V1alpha1ClusterGenerator()  # noqa: E501
         pass
 
 

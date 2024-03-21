@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1_label_selector_requirement import V1LabelSelectorRequirement  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1_label_selector_requirement import V1LabelSelectorRequirement  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1LabelSelectorRequirement(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1LabelSelectorRequirement(unittest.TestCase):
     def testV1LabelSelectorRequirement(self):
         """Test V1LabelSelectorRequirement"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1_label_selector_requirement.V1LabelSelectorRequirement()  # noqa: E501
+        # model = argocd.models.v1_label_selector_requirement.V1LabelSelectorRequirement()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.repository_plugin_app_spec import RepositoryPluginAppSpec  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.repository_plugin_app_spec import RepositoryPluginAppSpec  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestRepositoryPluginAppSpec(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestRepositoryPluginAppSpec(unittest.TestCase):
     def testRepositoryPluginAppSpec(self):
         """Test RepositoryPluginAppSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.repository_plugin_app_spec.RepositoryPluginAppSpec()  # noqa: E501
+        # model = argocd.models.repository_plugin_app_spec.RepositoryPluginAppSpec()  # noqa: E501
         pass
 
 

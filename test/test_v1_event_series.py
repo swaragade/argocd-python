@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1_event_series import V1EventSeries  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1_event_series import V1EventSeries  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1EventSeries(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1EventSeries(unittest.TestCase):
     def testV1EventSeries(self):
         """Test V1EventSeries"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1_event_series.V1EventSeries()  # noqa: E501
+        # model = argocd.models.v1_event_series.V1EventSeries()  # noqa: E501
         pass
 
 

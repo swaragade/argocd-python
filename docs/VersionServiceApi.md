@@ -1,4 +1,4 @@
-# swagger_client.VersionServiceApi
+# argocd.VersionServiceApi
 
 All URIs are relative to */*
 
@@ -15,12 +15,12 @@ Version returns version information of the API server
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.VersionServiceApi()
+api_instance = argocd.VersionServiceApi()
 
 try:
     # Version returns version information of the API server

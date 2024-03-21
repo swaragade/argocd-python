@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.cluster_oidc_config import ClusterOIDCConfig  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.cluster_oidc_config import ClusterOIDCConfig  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestClusterOIDCConfig(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestClusterOIDCConfig(unittest.TestCase):
     def testClusterOIDCConfig(self):
         """Test ClusterOIDCConfig"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.cluster_oidc_config.ClusterOIDCConfig()  # noqa: E501
+        # model = argocd.models.cluster_oidc_config.ClusterOIDCConfig()  # noqa: E501
         pass
 
 

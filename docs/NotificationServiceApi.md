@@ -1,4 +1,4 @@
-# swagger_client.NotificationServiceApi
+# argocd.NotificationServiceApi
 
 All URIs are relative to */*
 
@@ -17,12 +17,12 @@ List returns list of services
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationServiceApi()
+api_instance = argocd.NotificationServiceApi()
 
 try:
     # List returns list of services
@@ -59,12 +59,12 @@ List returns list of templates
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationServiceApi()
+api_instance = argocd.NotificationServiceApi()
 
 try:
     # List returns list of templates
@@ -101,12 +101,12 @@ List returns list of triggers
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationServiceApi()
+api_instance = argocd.NotificationServiceApi()
 
 try:
     # List returns list of triggers

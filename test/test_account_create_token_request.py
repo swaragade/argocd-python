@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.account_create_token_request import AccountCreateTokenRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.account_create_token_request import AccountCreateTokenRequest  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestAccountCreateTokenRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAccountCreateTokenRequest(unittest.TestCase):
     def testAccountCreateTokenRequest(self):
         """Test AccountCreateTokenRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.account_create_token_request.AccountCreateTokenRequest()  # noqa: E501
+        # model = argocd.models.account_create_token_request.AccountCreateTokenRequest()  # noqa: E501
         pass
 
 

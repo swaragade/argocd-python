@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.notification_template_list import NotificationTemplateList  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.notification_template_list import NotificationTemplateList  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestNotificationTemplateList(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestNotificationTemplateList(unittest.TestCase):
     def testNotificationTemplateList(self):
         """Test NotificationTemplateList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.notification_template_list.NotificationTemplateList()  # noqa: E501
+        # model = argocd.models.notification_template_list.NotificationTemplateList()  # noqa: E501
         pass
 
 

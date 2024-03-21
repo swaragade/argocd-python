@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.gpgkey_gnu_pg_public_key_create_response import GpgkeyGnuPGPublicKeyCreateResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.gpgkey_gnu_pg_public_key_create_response import GpgkeyGnuPGPublicKeyCreateResponse  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestGpgkeyGnuPGPublicKeyCreateResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestGpgkeyGnuPGPublicKeyCreateResponse(unittest.TestCase):
     def testGpgkeyGnuPGPublicKeyCreateResponse(self):
         """Test GpgkeyGnuPGPublicKeyCreateResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.gpgkey_gnu_pg_public_key_create_response.GpgkeyGnuPGPublicKeyCreateResponse()  # noqa: E501
+        # model = argocd.models.gpgkey_gnu_pg_public_key_create_response.GpgkeyGnuPGPublicKeyCreateResponse()  # noqa: E501
         pass
 
 

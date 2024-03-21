@@ -1,4 +1,4 @@
-# swagger_client.AccountServiceApi
+# argocd.AccountServiceApi
 
 All URIs are relative to */*
 
@@ -20,12 +20,12 @@ CanI checks if the current account has permission to perform an action
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
+api_instance = argocd.AccountServiceApi()
 resource = 'resource_example' # str | 
 action = 'action_example' # str | 
 subresource = 'subresource_example' # str | 
@@ -70,13 +70,13 @@ CreateToken creates a token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
-body = swagger_client.AccountCreateTokenRequest() # AccountCreateTokenRequest | 
+api_instance = argocd.AccountServiceApi()
+body = argocd.AccountCreateTokenRequest() # AccountCreateTokenRequest | 
 name = 'name_example' # str | 
 
 try:
@@ -118,12 +118,12 @@ DeleteToken deletes a token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
+api_instance = argocd.AccountServiceApi()
 name = 'name_example' # str | 
 id = 'id_example' # str | 
 
@@ -166,12 +166,12 @@ GetAccount returns an account
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
+api_instance = argocd.AccountServiceApi()
 name = 'name_example' # str | 
 
 try:
@@ -212,12 +212,12 @@ ListAccounts returns the list of accounts
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
+api_instance = argocd.AccountServiceApi()
 
 try:
     # ListAccounts returns the list of accounts
@@ -254,13 +254,13 @@ UpdatePassword updates an account's password to a new value
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AccountServiceApi()
-body = swagger_client.AccountUpdatePasswordRequest() # AccountUpdatePasswordRequest | 
+api_instance = argocd.AccountServiceApi()
+body = argocd.AccountUpdatePasswordRequest() # AccountUpdatePasswordRequest | 
 
 try:
     # UpdatePassword updates an account's password to a new value

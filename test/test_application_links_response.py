@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.application_links_response import ApplicationLinksResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.application_links_response import ApplicationLinksResponse  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestApplicationLinksResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestApplicationLinksResponse(unittest.TestCase):
     def testApplicationLinksResponse(self):
         """Test ApplicationLinksResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.application_links_response.ApplicationLinksResponse()  # noqa: E501
+        # model = argocd.models.application_links_response.ApplicationLinksResponse()  # noqa: E501
         pass
 
 

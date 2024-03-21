@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.cluster_settings import ClusterSettings  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.cluster_settings import ClusterSettings  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestClusterSettings(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestClusterSettings(unittest.TestCase):
     def testClusterSettings(self):
         """Test ClusterSettings"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.cluster_settings.ClusterSettings()  # noqa: E501
+        # model = argocd.models.cluster_settings.ClusterSettings()  # noqa: E501
         pass
 
 

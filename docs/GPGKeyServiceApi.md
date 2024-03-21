@@ -1,4 +1,4 @@
-# swagger_client.GPGKeyServiceApi
+# argocd.GPGKeyServiceApi
 
 All URIs are relative to */*
 
@@ -18,13 +18,13 @@ Create one or more GPG public keys in the server's configuration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GPGKeyServiceApi()
-body = swagger_client.V1alpha1GnuPGPublicKey() # V1alpha1GnuPGPublicKey | Raw key data of the GPG key(s) to create
+api_instance = argocd.GPGKeyServiceApi()
+body = argocd.V1alpha1GnuPGPublicKey() # V1alpha1GnuPGPublicKey | Raw key data of the GPG key(s) to create
 upsert = true # bool | Whether to upsert already existing public keys. (optional)
 
 try:
@@ -66,12 +66,12 @@ Delete specified GPG public key from the server's configuration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GPGKeyServiceApi()
+api_instance = argocd.GPGKeyServiceApi()
 key_id = 'key_id_example' # str | The GPG key ID to query for. (optional)
 
 try:
@@ -112,12 +112,12 @@ Get information about specified GPG public key from the server
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GPGKeyServiceApi()
+api_instance = argocd.GPGKeyServiceApi()
 key_id = 'key_id_example' # str | The GPG key ID to query for
 
 try:
@@ -158,12 +158,12 @@ List all available repository certificates
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GPGKeyServiceApi()
+api_instance = argocd.GPGKeyServiceApi()
 key_id = 'key_id_example' # str | The GPG key ID to query for. (optional)
 
 try:

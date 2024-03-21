@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_duck_type_generator import V1alpha1DuckTypeGenerator  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_duck_type_generator import V1alpha1DuckTypeGenerator  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1DuckTypeGenerator(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1DuckTypeGenerator(unittest.TestCase):
     def testV1alpha1DuckTypeGenerator(self):
         """Test V1alpha1DuckTypeGenerator"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_duck_type_generator.V1alpha1DuckTypeGenerator()  # noqa: E501
+        # model = argocd.models.v1alpha1_duck_type_generator.V1alpha1DuckTypeGenerator()  # noqa: E501
         pass
 
 

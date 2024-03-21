@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_scm_provider_generator_gitea import V1alpha1SCMProviderGeneratorGitea  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_scm_provider_generator_gitea import V1alpha1SCMProviderGeneratorGitea  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1SCMProviderGeneratorGitea(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1SCMProviderGeneratorGitea(unittest.TestCase):
     def testV1alpha1SCMProviderGeneratorGitea(self):
         """Test V1alpha1SCMProviderGeneratorGitea"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_scm_provider_generator_gitea.V1alpha1SCMProviderGeneratorGitea()  # noqa: E501
+        # model = argocd.models.v1alpha1_scm_provider_generator_gitea.V1alpha1SCMProviderGeneratorGitea()  # noqa: E501
         pass
 
 

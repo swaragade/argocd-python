@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.applicationv1alpha1_env_entry import Applicationv1alpha1EnvEntry  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.applicationv1alpha1_env_entry import Applicationv1alpha1EnvEntry  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestApplicationv1alpha1EnvEntry(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestApplicationv1alpha1EnvEntry(unittest.TestCase):
     def testApplicationv1alpha1EnvEntry(self):
         """Test Applicationv1alpha1EnvEntry"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.applicationv1alpha1_env_entry.Applicationv1alpha1EnvEntry()  # noqa: E501
+        # model = argocd.models.applicationv1alpha1_env_entry.Applicationv1alpha1EnvEntry()  # noqa: E501
         pass
 
 

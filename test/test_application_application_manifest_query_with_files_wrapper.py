@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.application_application_manifest_query_with_files_wrapper import ApplicationApplicationManifestQueryWithFilesWrapper  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.application_application_manifest_query_with_files_wrapper import ApplicationApplicationManifestQueryWithFilesWrapper  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestApplicationApplicationManifestQueryWithFilesWrapper(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestApplicationApplicationManifestQueryWithFilesWrapper(unittest.TestCase)
     def testApplicationApplicationManifestQueryWithFilesWrapper(self):
         """Test ApplicationApplicationManifestQueryWithFilesWrapper"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.application_application_manifest_query_with_files_wrapper.ApplicationApplicationManifestQueryWithFilesWrapper()  # noqa: E501
+        # model = argocd.models.application_application_manifest_query_with_files_wrapper.ApplicationApplicationManifestQueryWithFilesWrapper()  # noqa: E501
         pass
 
 

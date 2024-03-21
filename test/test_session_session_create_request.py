@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.session_session_create_request import SessionSessionCreateRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.session_session_create_request import SessionSessionCreateRequest  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestSessionSessionCreateRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSessionSessionCreateRequest(unittest.TestCase):
     def testSessionSessionCreateRequest(self):
         """Test SessionSessionCreateRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.session_session_create_request.SessionSessionCreateRequest()  # noqa: E501
+        # model = argocd.models.session_session_create_request.SessionSessionCreateRequest()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1alpha1_connection_state import V1alpha1ConnectionState  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1alpha1_connection_state import V1alpha1ConnectionState  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1alpha1ConnectionState(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1alpha1ConnectionState(unittest.TestCase):
     def testV1alpha1ConnectionState(self):
         """Test V1alpha1ConnectionState"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1alpha1_connection_state.V1alpha1ConnectionState()  # noqa: E501
+        # model = argocd.models.v1alpha1_connection_state.V1alpha1ConnectionState()  # noqa: E501
         pass
 
 

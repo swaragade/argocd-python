@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.intstr_int_or_string import IntstrIntOrString  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.intstr_int_or_string import IntstrIntOrString  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestIntstrIntOrString(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestIntstrIntOrString(unittest.TestCase):
     def testIntstrIntOrString(self):
         """Test IntstrIntOrString"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.intstr_int_or_string.IntstrIntOrString()  # noqa: E501
+        # model = argocd.models.intstr_int_or_string.IntstrIntOrString()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.protobuf_any import ProtobufAny  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.protobuf_any import ProtobufAny  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestProtobufAny(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestProtobufAny(unittest.TestCase):
     def testProtobufAny(self):
         """Test ProtobufAny"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.protobuf_any.ProtobufAny()  # noqa: E501
+        # model = argocd.models.protobuf_any.ProtobufAny()  # noqa: E501
         pass
 
 

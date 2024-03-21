@@ -1,4 +1,4 @@
-# swagger_client.RepositoryServiceApi
+# argocd.RepositoryServiceApi
 
 All URIs are relative to */*
 
@@ -24,13 +24,13 @@ CreateRepository creates a new repository configuration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
-body = swagger_client.V1alpha1Repository() # V1alpha1Repository | Repository definition
+api_instance = argocd.RepositoryServiceApi()
+body = argocd.V1alpha1Repository() # V1alpha1Repository | Repository definition
 upsert = true # bool | Whether to create in upsert mode. (optional)
 creds_only = true # bool | Whether to operate on credential set instead of repository. (optional)
 
@@ -74,12 +74,12 @@ DeleteRepository deletes a repository from the configuration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | Repo URL for query
 force_refresh = true # bool | Whether to force a cache refresh on repo's connection state. (optional)
 
@@ -122,12 +122,12 @@ Get returns a repository or its credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | Repo URL for query
 force_refresh = true # bool | Whether to force a cache refresh on repo's connection state. (optional)
 
@@ -170,13 +170,13 @@ GetAppDetails returns application details by given path
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
-body = swagger_client.RepositoryRepoAppDetailsQuery() # RepositoryRepoAppDetailsQuery | 
+api_instance = argocd.RepositoryServiceApi()
+body = argocd.RepositoryRepoAppDetailsQuery() # RepositoryRepoAppDetailsQuery | 
 source_repo_url = 'source_repo_url_example' # str | RepoURL is the URL to the repository (Git or Helm) that contains the application manifests
 
 try:
@@ -218,12 +218,12 @@ GetHelmCharts returns list of helm charts in the specified repository
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | Repo URL for query
 force_refresh = true # bool | Whether to force a cache refresh on repo's connection state. (optional)
 
@@ -266,12 +266,12 @@ ListApps returns list of apps in the repo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | 
 revision = 'revision_example' # str |  (optional)
 app_name = 'app_name_example' # str |  (optional)
@@ -318,12 +318,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | Repo URL for query
 force_refresh = true # bool | Whether to force a cache refresh on repo's connection state. (optional)
 
@@ -365,12 +365,12 @@ ListRepositories gets a list of all configured repositories
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 repo = 'repo_example' # str | Repo URL for query. (optional)
 force_refresh = true # bool | Whether to force a cache refresh on repo's connection state. (optional)
 
@@ -413,13 +413,13 @@ UpdateRepository updates a repository configuration
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
-body = swagger_client.V1alpha1Repository() # V1alpha1Repository | 
+api_instance = argocd.RepositoryServiceApi()
+body = argocd.V1alpha1Repository() # V1alpha1Repository | 
 repo_repo = 'repo_repo_example' # str | Repo contains the URL to the remote repository
 
 try:
@@ -461,12 +461,12 @@ ValidateAccess validates access to a repository with given parameters
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RepositoryServiceApi()
+api_instance = argocd.RepositoryServiceApi()
 body = 'body_example' # str | The URL to the repo
 repo = 'repo_example' # str | The URL to the repo
 username = 'username_example' # str | Username for accessing repo. (optional)

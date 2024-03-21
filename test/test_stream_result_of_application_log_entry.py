@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.stream_result_of_application_log_entry import StreamResultOfApplicationLogEntry  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.stream_result_of_application_log_entry import StreamResultOfApplicationLogEntry  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestStreamResultOfApplicationLogEntry(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestStreamResultOfApplicationLogEntry(unittest.TestCase):
     def testStreamResultOfApplicationLogEntry(self):
         """Test StreamResultOfApplicationLogEntry"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.stream_result_of_application_log_entry.StreamResultOfApplicationLogEntry()  # noqa: E501
+        # model = argocd.models.stream_result_of_application_log_entry.StreamResultOfApplicationLogEntry()  # noqa: E501
         pass
 
 

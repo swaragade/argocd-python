@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.account_update_password_request import AccountUpdatePasswordRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.account_update_password_request import AccountUpdatePasswordRequest  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestAccountUpdatePasswordRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAccountUpdatePasswordRequest(unittest.TestCase):
     def testAccountUpdatePasswordRequest(self):
         """Test AccountUpdatePasswordRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.account_update_password_request.AccountUpdatePasswordRequest()  # noqa: E501
+        # model = argocd.models.account_update_password_request.AccountUpdatePasswordRequest()  # noqa: E501
         pass
 
 

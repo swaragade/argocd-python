@@ -1,4 +1,4 @@
-# swagger_client.SessionServiceApi
+# argocd.SessionServiceApi
 
 All URIs are relative to */*
 
@@ -17,13 +17,13 @@ Create a new JWT for authentication and set a cookie if using HTTP
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SessionServiceApi()
-body = swagger_client.SessionSessionCreateRequest() # SessionSessionCreateRequest | 
+api_instance = argocd.SessionServiceApi()
+body = argocd.SessionSessionCreateRequest() # SessionSessionCreateRequest | 
 
 try:
     # Create a new JWT for authentication and set a cookie if using HTTP
@@ -63,12 +63,12 @@ Delete an existing JWT cookie if using HTTP
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SessionServiceApi()
+api_instance = argocd.SessionServiceApi()
 
 try:
     # Delete an existing JWT cookie if using HTTP
@@ -105,12 +105,12 @@ Get the current user's info
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SessionServiceApi()
+api_instance = argocd.SessionServiceApi()
 
 try:
     # Get the current user's info

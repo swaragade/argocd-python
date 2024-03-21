@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.gpg_key_service_api import GPGKeyServiceApi  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.api.gpg_key_service_api import GPGKeyServiceApi  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestGPGKeyServiceApi(unittest.TestCase):

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1_owner_reference import V1OwnerReference  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.v1_owner_reference import V1OwnerReference  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestV1OwnerReference(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1OwnerReference(unittest.TestCase):
     def testV1OwnerReference(self):
         """Test V1OwnerReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1_owner_reference.V1OwnerReference()  # noqa: E501
+        # model = argocd.models.v1_owner_reference.V1OwnerReference()  # noqa: E501
         pass
 
 

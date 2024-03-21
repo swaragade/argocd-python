@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.account_account import AccountAccount  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.account_account import AccountAccount  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestAccountAccount(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAccountAccount(unittest.TestCase):
     def testAccountAccount(self):
         """Test AccountAccount"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.account_account.AccountAccount()  # noqa: E501
+        # model = argocd.models.account_account.AccountAccount()  # noqa: E501
         pass
 
 

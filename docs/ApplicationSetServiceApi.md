@@ -1,4 +1,4 @@
-# swagger_client.ApplicationSetServiceApi
+# argocd.ApplicationSetServiceApi
 
 All URIs are relative to */*
 
@@ -18,13 +18,13 @@ Create creates an applicationset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationSetServiceApi()
-body = swagger_client.V1alpha1ApplicationSet() # V1alpha1ApplicationSet | 
+api_instance = argocd.ApplicationSetServiceApi()
+body = argocd.V1alpha1ApplicationSet() # V1alpha1ApplicationSet | 
 upsert = true # bool |  (optional)
 
 try:
@@ -66,12 +66,12 @@ Delete deletes an application set
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationSetServiceApi()
+api_instance = argocd.ApplicationSetServiceApi()
 name = 'name_example' # str | 
 appset_namespace = 'appset_namespace_example' # str | The application set namespace. Default empty is argocd control plane namespace. (optional)
 
@@ -114,12 +114,12 @@ Get returns an applicationset by name
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationSetServiceApi()
+api_instance = argocd.ApplicationSetServiceApi()
 name = 'name_example' # str | the applicationsets's name
 appset_namespace = 'appset_namespace_example' # str | The application set namespace. Default empty is argocd control plane namespace. (optional)
 
@@ -162,12 +162,12 @@ List returns list of applicationset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import argocd
+from argocd.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApplicationSetServiceApi()
+api_instance = argocd.ApplicationSetServiceApi()
 projects = ['projects_example'] # list[str] | the project names to restrict returned list applicationsets. (optional)
 selector = 'selector_example' # str | the selector to restrict returned list to applications only with matched labels. (optional)
 appset_namespace = 'appset_namespace_example' # str | The application set namespace. Default empty is argocd control plane namespace. (optional)

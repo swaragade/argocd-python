@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.runtime_error import RuntimeError  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.runtime_error import RuntimeError  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestRuntimeError(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestRuntimeError(unittest.TestCase):
     def testRuntimeError(self):
         """Test RuntimeError"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.runtime_error.RuntimeError()  # noqa: E501
+        # model = argocd.models.runtime_error.RuntimeError()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.project_project_create_request import ProjectProjectCreateRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import argocd
+from argocd.models.project_project_create_request import ProjectProjectCreateRequest  # noqa: E501
+from argocd.rest import ApiException
 
 
 class TestProjectProjectCreateRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestProjectProjectCreateRequest(unittest.TestCase):
     def testProjectProjectCreateRequest(self):
         """Test ProjectProjectCreateRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.project_project_create_request.ProjectProjectCreateRequest()  # noqa: E501
+        # model = argocd.models.project_project_create_request.ProjectProjectCreateRequest()  # noqa: E501
         pass
 
 
