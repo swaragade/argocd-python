@@ -1,0 +1,18 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.account_service_api import AccountServiceApi
+from swagger_client.api.application_service_api import ApplicationServiceApi
+from swagger_client.api.application_set_service_api import ApplicationSetServiceApi
+from swagger_client.api.certificate_service_api import CertificateServiceApi
+from swagger_client.api.cluster_service_api import ClusterServiceApi
+from swagger_client.api.gpg_key_service_api import GPGKeyServiceApi
+from swagger_client.api.notification_service_api import NotificationServiceApi
+from swagger_client.api.project_service_api import ProjectServiceApi
+from swagger_client.api.repo_creds_service_api import RepoCredsServiceApi
+from swagger_client.api.repository_service_api import RepositoryServiceApi
+from swagger_client.api.session_service_api import SessionServiceApi
+from swagger_client.api.settings_service_api import SettingsServiceApi
+from swagger_client.api.version_service_api import VersionServiceApi
