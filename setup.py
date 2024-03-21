@@ -12,7 +12,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "swagger-client"
+NAME = "python-argocd"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -26,14 +26,12 @@ REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="Consolidate Services",
-    author_email="",
-    url="",
-    keywords=["Swagger", "Consolidate Services"],
+    description="Python client for ArgoCD",
+    author_email="suraj_waragade@live.com",
+    url="https://github.com/swaragade/argocd-python",
+    keywords=["Swagger", "ArgoCD"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    Description of all APIs  # noqa: E501
-    """
+    long_description="Python implementation of the ArgoCD API"
 )
